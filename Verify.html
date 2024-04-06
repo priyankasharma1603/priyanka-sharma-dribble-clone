@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Verify.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  </head>
+  <body>
+  
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="/img/dribble.png" />
+          </div>
+          <div class="icon">
+          <span class="toggle">☰</span>
+          </div>
+          <ul class="list-item">
+            <li><a href="#">Inspiration</a></li>
+            <li><a href="#">Find Work</a></li>
+            <li><a href="#">Learn Design</a></li>
+            <li><a href="#">Go Pro</a></li>
+            <li><a href="#">Hire Designers</a></li>
+          </ul>
+          <button class="btn1" type="submit">Upload</button>
+          <input type="text" placeholder="Search..">
+        </nav>
+      </header>  
+
+    <div class="main">
+        <h1>
+            Please verify your email..
+        </h1>
+        <p>Please verify your email address.We've sent a confirmation email to: </p>
+        <h3>account@refero.design</h3>
+        <img src="/img/Screenshot 2024-04-06 155017.png" alt="Girl in a jacket" width="250" height="150">
+        <p>Click the confirmation link in that email to begin using Dribble.</p>
+        <p> Didn't recieve the email? Check your Spam folder, it may have been caught by a filter.If you still don't see it,you can
+         <span>resend the confirmation email.</span></p>
+         <p>Wrong email address?<span>Change it.</span></p>
+
+    </div>
+    <footer>
+        <div class="container flex footer_main">
+            <div class="left__footer">
+                <img src="/img/12.png" alt="Girl in a jacket" width="100" height="50">
+                <p>Dribbble is the world’s leading community for creatives to share, grow, and get hired.</p>
+                <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <div class="second__footer">
+                <p>For designers</p>
+                <ul>
+                    <li><a href="">Go Pro!</a></li>
+                    <li><a href="">Explore design work</a></li>
+                    <li><a href="">Design blog</a></li>
+                    <li><a href="">Overtime podcast</a></li>
+                    <li><a href="">Dribble meetups</a></li>
+                    <li><a href="">Playoffs</a></li>
+                    <li><a href="">Weekly Warm-Up</a></li>
+                    <li><a href="">Code of conduct</a></li>
+                </ul>
+            </div>
+            <div class="third__footer">
+                <p>Hire designers</p>
+                <ul>
+                    <li><a href="">Post a job openning</a></li>
+                    <li><a href="">Post a freelance project</a></li>
+                    <li><a href="">Search for designers</a></li>
+                    <li><p>Brands</p></li>
+                    <li><a href="">Advertise with us</a></li>
+                </ul>
+            </div>
+            <div class="fourth__footer"> 
+                <p>Company</p>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Media kit</a></li>
+                    <li><a href="">Dribble shop</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">API</a></li>
+                    <li><a href="">Term of service</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="last__footer"> 
+                <p>Directories</p>
+                <ul>
+                    <li><a href="">Design jobs</a></li>
+                    <li><a href="">Designers for hire</a></li>
+                    <li><a href="">Tags</a></li>
+                    <li><a href="">Places</a></li>
+                    <li><p>Design assets</p></li>
+                    <li><a href="">Shop Creative Market</a></li>
+                </ul></div>
+        </div>
+        <hr>
+        <div class="flex footer_after container">
+            <p>© 2021 Dribbble. All rights reserved.</p>
+            <p> <strong>15,340,796</strong> shots dribbbled <i class="fas fa-basketball-ball"></i> </p>
+            
+        </div>
+    </footer>
+    <script>
+        $(".toggle").click(function () {
+  "use strict";
+  $("nav ul").slideToggle();
+});
+
+$(window).resize(function () {
+  "use strict";
+  if ($(window).width() > 780) {
+    $("nav ul").removeAttr("style");
+  }
+});
+
+    </script>
+    
+</body>
+</html>
